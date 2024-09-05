@@ -1,5 +1,5 @@
 <?php  
-     $nome="Elton";
+     $nome="ESERCIZIO PHP-BADWORDS";
      echo $nome;
 
 
