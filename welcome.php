@@ -5,9 +5,7 @@
  
      $paragrafo = $_GET['paragrafo'];
      $censura = $_GET['censura'];
-     echo "<pre>";
-     echo $nome, $cognome;
-     echo "</pre>";
+     
 
 ?>
 
@@ -20,6 +18,8 @@
 </head>
 <body>
     
- <h1>Benvenuto <?php echo $nome." ".$cognome; ?> a casa</h1> 
+ <h1>Il Paragrafo è : <?php echo $paragrafo; ?> </h1> 
+  <h3>Censura questa parola: <?php echo $censura; ?> </h3> 
+
 </body>
 </html>
