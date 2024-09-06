@@ -5,6 +5,9 @@
  
      $paragrafo = $_GET['paragrafo'];
      $censura = $_GET['censura'];
+
+     $str = $paragrafo ;
+    
      
 
 ?>
@@ -19,6 +22,7 @@
 <body>
     
  <h1>Il Paragrafo è : <?php echo $paragrafo; ?> </h1> 
+ <h2>Il paragrafo è lungo : <?php echo strlen($str); ?></h2>
   <h3>Censura questa parola: <?php echo $censura; ?> </h3> 
 
 </body>
