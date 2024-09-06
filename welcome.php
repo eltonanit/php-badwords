@@ -8,6 +8,10 @@
 
      $str = $paragrafo ;
     
+     // CENSURA QUESTO
+      
+
+     $new_string = str_replace("$censura", '***', $paragrafo);
      
 
 ?>
@@ -23,7 +27,8 @@
     
  <h1>Il Paragrafo è : <?php echo $paragrafo; ?> </h1> 
  <h2>Il paragrafo è lungo : <?php echo strlen($str); ?></h2>
-  <h3>Censura questa parola: <?php echo $censura; ?> </h3> 
+  <h3>Censura questa parola: <?php echo $censura; ?> </h3>
+  <h2> <?php echo "Ecco il paragrafo censurato:" .$new_string; ?></h2> 
 
 </body>
 </html>
